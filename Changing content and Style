@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width-device.width">
+    <title>step 2: Changing content and styles </title>
+    <style>
+        body{ font-family: sans-serif; padding: 20px; }
+        .card{ padding: 20px; border: 1px solid #ddd;}
+    </style>
+
+</head>
+<body>
+
+    <h1> Part 2: Manipulation (Changing Things)</h1>
+    <p> Once we selecrt an element, we can change its text, HTML, styles </p>
+
+    <div class="card" id="myCard">
+        <h2 id="cardTitle"> Old Title</h2>
+        <p id="cardText"> This is some old text that we will replace </p>
+        <a href="#" id="myLink"> Old Dead Link</a>
+        
+       
+
+    </div>
+    <script src="content.js"></script>
